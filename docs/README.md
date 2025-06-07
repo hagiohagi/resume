@@ -1,7 +1,8 @@
 ---
-layout: doc
+layout: default
+description: 萩原誠人の職務経歴書
+permalink: /
 ---
-
 
 # 職務経歴書
 
