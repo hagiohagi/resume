@@ -219,6 +219,7 @@ permalink: /
 - オンラインコミュニティ[「AWS CloudTech」](https://kws-cloud-tech.com/)に所属
   - 活動時期：2021 年 1 月~
   - 2021 年 8 月 その中のプロジェクトである AWS 初学者向け書籍の商業出版に参画し、一部文章を執筆
+    - 書籍名： [『AWSエンジニア入門講座――学習ロードマップで体系的に学ぶ』](<https://amzn.asia/d/1aLSDf3>)
 - 友人向けに、大学のゼミで使用する写真登録アプリを Laravel・Vue を用いて開発
   - 活動時期：2022 年 2 月~8 月
   - リポジトリ： [https://github.com/hagiohagi/shokujikanri_app](https://github.com/hagiohagi/shokujikanri_app)
