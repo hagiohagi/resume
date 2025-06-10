@@ -8,9 +8,10 @@ permalink: /
 
 ## 基本情報
 
-|          |                                                              |
+| 項目     | 内容                                                         |
 | -------- | ------------------------------------------------------------ |
-| 氏名     | 萩原誠人                                                     |
+| 氏名     | 萩原 誠人 ( はぎわら まさと )                                      |
+| 性別     | 男                                                           |
 | 生年月日 | 1993/5/19                                                    |
 | 居住地 | 東京都杉並区 |
 | 最終学歴 | 早稲田大学社会科学部卒 |
@@ -33,60 +34,81 @@ permalink: /
 - AWS Solutions Architect Associate（2021 年 5 月 → 2024 年 6 月 再取得）
 - IT パスポート（2020 年 11 月）
 
+---
+
 ## 技術スタック
 
 ### 言語
 
-- JavaScript
-- Ruby
-- Python
-- PHP
+| 種類 | 年数 |
+|------|----------|
+| JavaScript | 3 年 |
+| PHP | 2 年 |
+| Python | 半年 |
+| Ruby | 1 ヶ月 |
 
 ### ライブラリ・フレームワーク
 
-- Vue
-- Node.js
-- Ruby-on-Rails
-- Laravel
-
-### クラウド
-
-- AWS (実務経験あり）
-  - コンピューティング： EC2, セッション Manager
-  - ストレージ： S3
-  - データベース： RDS, Aurora, DynamoDB
-  - ネットワーク： VPC, Route53, ALB, CloudFront
-  - セキュリティ： Cognito, GuardDuty
-  - 監視・運用： CloudWatch, EventBridge, CloudTrail
-  - IaC: CloudFormation
-  - サーバーレス： API Gateway, Lambda
-  - その他： Amazon Connect, Transcribe
-- Google Cloud (実務経験なし）
-- Azure (技術調査経験あり）
+| 種類 | 年数 |
+|----------------|----------|
+| Vue | 1 年 |
+| Laravel | 1 年 6 ヶ月 |
+| Node.js | 1 年 |
+| Ruby-on-Rails | 1 ヶ月 |
 
 ### データベース
 
-- PostgreSQL
-- MySQL (MariaDB)
+| 種類 | 年数 |
+|----------------|----------|
+| PostgreSQL | 1 年 |
+| MySQL (MariaDB) | 2 年 |
+
+### クラウド
+
+| 種類 | 年数 |
+|----------------|----------|
+| AWS | 3 年 |
+| GCP | 実務経験なし（自主学習のみ） |
+| Azure | 2 ヶ月 |
+
+- 経験のある AWS サービス
+  - コンピューティング： EC2, SessionManager, Lambda
+  - ストレージ： S3, EBS
+  - データベース： RDS, Aurora, DynamoDB
+  - ネットワーク： VPC, Route53, ALB, CloudFront
+  - 認証： Cognito
+  - 監視・運用： CloudWatch, GuardDuty, EventBridge, CloudTrail
+  - IaC: CloudFormation
+  - サーバーレス： API Gateway, Lambda
+  - その他： Amazon Connect, Transcribe
 
 ### その他
 
 - LAMP 環境構築
 - Slack API 連携
 - WordPress
-- Moodle OSS の利用
+- Moodle(学習プラットフォーム用 OSS)の利用
 - GitHub Actions
+
+---
 
 ## 職務経歴詳細
 
-### 株式会社エクストリーム (2024 年 1 月〜2025 年 3 月）
+### 概要
 
-|          |                                                                                                                                                                    |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+2016 年 4 月、株式会社 KICHIRI へ新卒入社。ファミレス業態の社員として飲食業に従事。2018 年 9 月から店長に昇格し、労務・育成・売上・販促管理等の店舗運営を担う。2020 年 2 月に退社。
+同年、プログラミング学習を開始。2021 年 1 月より株式会社ディグナに業務委託の社内 SE として参画し、主に AWS の設計・構築・運用スキルを習得。
+2022 年 1 月、アイレット株式会社の受託開発部門に正社員として入社。PM 補佐としてプロジェクトを進行しつつ、バックエンド開発にも従事。
+2023 年 12 月、株式会社エクストリームへ入社。フロントエンド開発を担当しつつ、顧客用クラウド環境の構築・運用の自動化を経験。2025 年 3 月に退社。
+
+### 【4社目】株式会社エクストリーム (2024 年 1 月〜2025 年 3 月）
+
+| 項目     | 内容                                                         |
+| -------- | ------------------------------------------------------------ |
 | 事業内容 | 顧客常駐型でのスマホアプリ、IT、Web 系ソフトウェア開発など |
-| 従業員数 | 727 名                                                                                                                                                            |
-| 雇用形態 | 契約社員                                                                                                                                                             |
-| 職種     | アプリケーション開発エンジニア・クラウド構築エンジニア                                                                                                                                     |
+| 従業員数 | 727 名                                        　　　　　　　　　　 |
+| 雇用形態 | 契約社員                                         　　　　　　　　　　 |
+| 職種     | アプリケーション開発エンジニア・クラウド構築エンジニア                  |
 
 - **プロジェクト：** BtoB 向け地図検索 web アプリの機能実装・AWS 環境構築
 
@@ -102,15 +124,15 @@ permalink: /
       - JavaScript を用いた独自 web フレームワークの設計・構築
     - 保守
       - Amazon Linux 2 から Amazon Linux 2023 への OS 切り替えに伴う調査及び移行作業
-      - CloudWatch・EventBridge・CloudTrail・GuardDuty などによる運用・監視
+      - CloudWatch・EventBridge・CloudTrail・GuardDuty などの AWS 機能による運用・監視
       - ALB トラストストア機能によるクライアント証明書と連動したアプリケーションの導入
       - AWS CloudFormation 導入による案件ごとの環境構築手順の簡略化（2 日→3 時間 )
       - Azure の Virtual Machine でのアプリ動作検証及び Azure における環境構築
 
-### アイレット株式会社 (2022 年 1 月〜2022 年 6 月）
+### 【3社目】アイレット株式会社 (2022 年 1 月〜2023 年 6 月）
 
-|          |                                                                                                                                                                    |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 項目     | 内容                                                         |
+| -------- | ------------------------------------------------------------ |
 | 事業内容 | Web システム開発、スマホアプリ（iOS/Android）開発・運用、クラウドを活用したインフラ設計・構築・運用のフルマネージドサービス「cloudpack」の提供、UI/UX デザイン制作 |
 | 従業員数 | 1215 名                                                                                                                                                            |
 | 雇用形態 | 正社員                                                                                                                                                             |
@@ -128,7 +150,7 @@ permalink: /
     - Laravel 6
     - Vue 2.6
     - Github Actions
-    - AWS（S3・EC2・Amazon CloudFront・Elemental MediaConvert・ECS・ALB・Cognito・Aurora）
+    - AWS（S3・EC2・Amazon CloudFront・Elemental MediaConvert・ALB・Cognito・Aurora）
   - **担当：**
     - サブ PM（スケジュール策定・お客様対応・運用ルール策定）
     - プログラマ（API 実装・フロントエンド実装・テスト作成）
@@ -147,10 +169,10 @@ permalink: /
     - Lambda 内で Python のコードを記述し、DynamoDB へクエリを送る実装
     - CloudFormation によって作成した Lambda のテスト環境によるユニットテスト
 
-### 株式会社ディグナ (2021 年 1 月〜2021 年 10 月）
+### 【2社目】株式会社ディグナ (2021 年 1 月〜2021 年 10 月）
 
-|          |                                                                                       |
-| -------- | ------------------------------------------------------------------------------------- |
+| 項目     | 内容                                                         |
+| -------- | ------------------------------------------------------------ |
 | 事業内容 | 中小企業の IT 支援・IT 導入補助金採択支援・Google Workspace と HubSpot 認定公式代理店 |
 | 従業員数 | 23 名                                                                                 |
 | 雇用形態 | 業務委託                                                                              |
@@ -177,10 +199,10 @@ permalink: /
     - Slack API
     - AWS（Amazon Connect・Lambda・Amazon Transcribe・S3・Cognite・AWS SDK）
 
-### 株式会社 KICHIRI (2016 年 4 月〜2020 年 2 月）
+### 【1社目】株式会社 KICHIRI (2016 年 4 月〜2020 年 2 月）
 
-|          |                                 |
-| -------- | ------------------------------- |
+| 項目     | 内容                                                         |
+| -------- | ------------------------------------------------------------ |
 | 事業内容 | 外食レストラン                  |
 | 従業員数 | 2300 名                         |
 | 雇用形態 | 正社員                          |
@@ -189,11 +211,20 @@ permalink: /
 ## 業務外活動
 
 - 就職活動時に作成した成果物を通して、Ruby on Rails を用いた DB 管理とログイン機能を実装したアプリを開発
-  - リポジトリ： [apply_easily_app](https://github.com/hagiohagi/apply_easily_app)
-- 大学の先輩が関わる新規事業にボランティアとして参加し、Wordpress によるコーポレートサイトを作成
-- オンラインコミュニティ[「AWS CloudTech」](https://kws-cloud-tech.com/)に所属し、その中のプロジェクトである AWS 初学者向け書籍の商業出版に参画し、一部文章を執筆
-- 友人の要望に応え、大学のゼミで使用する写真登録アプリを Laravel を用いて開発
-  - リポジトリ： [shokujikanri_app](https://github.com/hagiohagi/shokujikanri_app)
-  - 実装内容：
-    - ムームードメインによるドメインの発行
-    - ロリポップサーバーで Linux・MySQL のセットアップ
+  - 活動時期：2020 年 11 月
+  - リポジトリ： [https://github.com/hagiohagi/apply_easily_app](https://github.com/hagiohagi/apply_easily_app)
+- 大学の先輩が関わる新規事業にボランティアとして参加し、コーポレートサイトを作成
+  - 活動時期：2020 年 12 月~2021 年 3 月
+  - WordPress と SEO 対策の知見を学ぶ
+- オンラインコミュニティ[「AWS CloudTech」](https://kws-cloud-tech.com/)に所属
+  - 活動時期：2021 年 1 月~
+  - 2021 年 8 月 その中のプロジェクトである AWS 初学者向け書籍の商業出版に参画し、一部文章を執筆
+- 友人向けに、大学のゼミで使用する写真登録アプリを Laravel・Vue を用いて開発
+  - 活動時期：2022 年 2 月~8 月
+  - リポジトリ： [https://github.com/hagiohagi/shokujikanri_app](https://github.com/hagiohagi/shokujikanri_app)
+  - ムームードメインによるドメインの発行
+  - ロリポップサーバーで Linux・MySQL のセットアップ
+- フロントエンドのモダン web フレームワーク（Next.js・Typescript 等）の自主学習
+  - 活動時期：2025 年 4 月~
+  - リポジトリ： [https://github.com/hagiohagi/ts-household-app](https://github.com/hagiohagi/ts-household-app)
+  - Vercel によるデプロイ
