@@ -38,38 +38,48 @@ permalink: /
 
 ## 技術スタック
 
+星なし…未経験
+★…自主学習のみ
+★★…実務経験 1 年未満
+★★★…実務経験 1〜3 年
+★★★★…実務経験 3 年以上
+
 ### 言語
 
-| 種類 | 年数 |
-|------|----------|
-| JavaScript | 3 年 |
-| PHP | 2 年 |
-| Python | 半年 |
-| Ruby | 1 ヶ月 |
+| 種類         | 習熟度  |
+| ---------- | ---- |
+| JavaScript | ★★★★ |
+| PHP        | ★★★  |
+| Python     | ★★   |
+| Ruby       | ★★   |
 
 ### ライブラリ・フレームワーク
 
-| 種類 | 年数 |
-|----------------|----------|
-| Vue | 1 年 |
-| Laravel | 1 年 6 ヶ月 |
-| Node.js | 1 年 |
-| Ruby-on-Rails | 1 ヶ月 |
+| 種類            | 習熟度 |
+| ------------- | --- |
+| Typescript       | ★   |
+| React         | ★   |
+| Vue           | ★★★ |
+| Laravel       | ★★★ |
+| Next.js       | ★   |
+| Node.js       | ★★★ |
+| Ruby-on-Rails | ★★  |
 
 ### データベース
 
-| 種類 | 年数 |
-|----------------|----------|
-| PostgreSQL | 1 年 |
-| MySQL (MariaDB) | 2 年 |
+| 種類              | 習熟度 |
+| --------------- | --- |
+| PostgreSQL      | ★★★ |
+| MySQL           | ★★★ |
+| MariaDB         | ★★  |
 
 ### クラウド
 
-| 種類 | 年数 |
-|----------------|----------|
-| AWS | 3 年 |
-| GCP | 実務経験なし（自主学習のみ） |
-| Azure | 2 ヶ月 |
+| 種類    | 習熟度  |
+| ----- | ---- |
+| AWS   | ★★★★ |
+| GCP   | ★    |
+| Azure | ★★   |
 
 - 経験のある AWS サービス
   - コンピューティング： EC2, SessionManager, Lambda
@@ -82,13 +92,32 @@ permalink: /
   - サーバーレス： API Gateway, Lambda
   - その他： Amazon Connect, Transcribe
 
+### OS
+
+| 種類             | 習熟度  |
+| -------------- | ---- |
+| Linux         | ★★★  |
+| Apache         | ★★★  |
+
+### 開発ツール
+
+| 種類             | 習熟度  |
+| -------------- | ---- |
+| VSCode         | ★★★★ |
+| Claude         | ★    |
+| GitHub Actions | ★★   |
+| Postman        | ★★   |
+| Swagger        | ★★   |
+| Vercel         | ★    |
+| Terraform      | ★    |
+
 ### その他
 
-- LAMP 環境構築
-- Slack API 連携
-- WordPress
-- Moodle(学習プラットフォーム用 OSS)の利用
-- GitHub Actions
+| 種類             | 習熟度  |
+| -------------- | ---- |
+| Slack API 連携  | ★★   |
+| WordPress      | ★★   |
+| Moodle(学習プラットフォーム用 OSS) | ★★★  |
 
 ---
 
@@ -121,13 +150,15 @@ permalink: /
     - AWS (Route53・ALB・EC2・S3・CloudFormation)
   - **担当：**
     - 開発
-      - JavaScript を用いた独自 web フレームワークの設計・構築
+      - JavaScript を用いた独自 web フレームワークの設計・実装
     - 保守
       - Amazon Linux 2 から Amazon Linux 2023 への OS 切り替えに伴う調査及び移行作業
       - CloudWatch・EventBridge・CloudTrail・GuardDuty などの AWS 機能による運用・監視
       - ALB トラストストア機能によるクライアント証明書と連動したアプリケーションの導入
       - AWS CloudFormation 導入による案件ごとの環境構築手順の簡略化（2 日→3 時間 )
       - Azure の Virtual Machine でのアプリ動作検証及び Azure における環境構築
+    - **主な取り組み**
+      - 独自フレームワークによるアプリケーションのローコード化が進む中、当該フレームワークを扱える人材が限られていたため、実装業務と並行して技術ドキュメントの整備に注力。また、AWS 保守においても貢献の余地を見出し、環境構築手順の簡略化や、クラウドサービスによる実現可能な要件の洗い出しを行い、チーム内へ積極的にナレッジを共有。運用性と開発効率の両面から改善を図った
 
 ### 【3社目】アイレット株式会社 (2022 年 1 月〜2023 年 6 月）
 
@@ -148,12 +179,15 @@ permalink: /
     - 他サービスとのシングルサインオン機能
   - **使用した技術：**
     - Laravel 6
-    - Vue 2.6
+    - Vue 2.6 (ブラウザ側）
+    - Flutter (スマホアプリ側）
     - Github Actions
     - AWS（S3・EC2・Amazon CloudFront・Elemental MediaConvert・ALB・Cognito・Aurora）
   - **担当：**
     - サブ PM（スケジュール策定・お客様対応・運用ルール策定）
     - プログラマ（API 実装・フロントエンド実装・テスト作成）
+  - **主な取り組み**
+    - Vue および Flutter 双方に対応したユーザー認証・動画視聴・チーム作成機能等の要件に対し、技術スタックの異なるメンバーが在籍するチーム内で共通 API の設計と仕様整理を主導。Laravel を用いて API を構築し、Swagger および設計書により両フロントエンドとの連携を実現。設計・実装フェーズでは、上位エンジニアとの技術的な議論や合意形成を積極的に行い、進行管理においてはサブ PM として他メンバーとの円滑な連携と誠実な対応を通じて信頼関係を構築
 
 - **プロジェクト（2）：** NoSQL でアンケート内容を保存・取得する API の作成
   - **プロジェクト詳細：**
@@ -197,7 +231,7 @@ permalink: /
       - オペレーター不在時に留守電としてメッセージの録音ができる機能
   - **使用した技術：**
     - Slack API
-    - AWS（Amazon Connect・Lambda・Amazon Transcribe・S3・Cognite・AWS SDK）
+    - AWS（Amazon Connect・Lambda・Amazon Transcribe・S3・AWS SDK）
 
 ### 【1社目】株式会社 KICHIRI (2016 年 4 月〜2020 年 2 月）
 
