@@ -118,7 +118,8 @@
       "ignoreLinkEnd": true,
       "allowPeriodMarks": [],
       "allowEmoji": false,
-      "forceAppendPeriod": false
+      "forceAppendPeriod": false,
+      "severity": "warning"
     },
     "ja-hiragana-keishikimeishi": true,
     "ja-hiragana-fukushi": true,
