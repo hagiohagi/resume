@@ -6,10 +6,12 @@
         "severity": "warning"
       },
       "max-comma": {
-        "max": 3
+        "max": 3,
+        "severity": "warning"
       },
       "max-ten": {
-        "max": 3
+        "max": 3,
+        "severity": "warning"
       },
       "max-kanji-continuous-len": {
         "max": 15
@@ -42,7 +44,7 @@
       "ja-no-weak-phrase": {
         "severity": "warning"
       },
-      "ja-no-successive-word": true,
+      "ja-no-successive-word": false,
       "ja-no-abusage": true,
       "ja-no-redundant-expression": {
         "severity": "warning"
@@ -103,8 +105,7 @@
       "ja-nakaguro-or-halfwidth-space-between-katakana": true,
       "ja-no-space-around-parentheses": true,
       "ja-space-after-exclamation": false,
-      "ja-space-after-question": false,
-      "ja-no-space-between-full-width": false
+      "ja-space-after-question": false
     },
     "spellcheck-tech-word": true,
     "period-in-list-item": {
