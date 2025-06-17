@@ -39,11 +39,7 @@ permalink: /
 
 ## 技術スタック
 
-星なし…未経験
-★…自主学習のみ
-★★…実務経験 1 年未満
-★★★…実務経験 1〜3 年
-★★★★…実務経験 3 年以上
+★…自主学習のみ / ★★…実務経験 1 年未満 / ★★★…実務経験 1〜3 年 / ★★★★…実務経験 3 年以上
 
 ### 言語
 
@@ -84,12 +80,13 @@ permalink: /
 | Azure | ★★   |
 
 - 経験のある AWS サービス
-  - コンピューティング： EC2, SessionManager, Lambda
+  - コンピューティング： EC2, SessionManager
   - ストレージ： S3, EBS
   - データベース： RDS, Aurora, DynamoDB
-  - ネットワーク： VPC, Route53, ALB, CloudFront
+  - ネットワーク： VPC, Route53, ALB, CloudFront, SES
+  - セキュリティ： IAM, ACM
   - 認証： Cognito
-  - 監視・運用： CloudWatch, GuardDuty, EventBridge, CloudTrail
+  - 監視・運用： CloudWatch, GuardDuty, EventBridge, SNS, CloudTrail, Config
   - IaC: CloudFormation
   - サーバーレス： API Gateway, Lambda
   - その他： Amazon Connect, Transcribe
@@ -141,29 +138,35 @@ permalink: /
 | 雇用形態 | 契約社員                                          |
 | 職種     | アプリケーション開発エンジニア・クラウド構築エンジニア                  |
 
-- **プロジェクト：** BtoB 向け地図検索 Web アプリの機能実装・AWS 環境構築
+- **プロジェクト：** BtoB 向け地図 Web アプリの開発・AWS 環境の構築と運用保守
 
   - **プロジェクト詳細：**
-    - マップ情報に連動した住宅データの検索・編集・登録
+    - 住宅地図情報に連動した不動産データの検索・編集・登録機能を持つアプリケーション開発
     - 期間：2024 年 1 月〜2025 年 3 月
     - 体制：開発メンバー 8 名、保守メンバー 3 名
   - **使用した技術：**
     - JavaScript（フロントエンド ES5 の記法）
     - PHP（バックエンド）
     - PostgreSQL（データベース postGIS・pgcrypto をモジュールとして使用）
-    - AWS（Route53・ALB・EC2・S3・CloudFormation）
+    - AWS
+    - Apache
+    - Azure (技術調査のみ）
   - **担当：**
-    - 開発
+    - アプリケーション開発
       - JavaScript を用いた独自 Web フレームワークの設計・実装
-    - 保守
-      - Amazon Linux 2 から Amazon Linux 2023 への OS 切り替えに伴う調査及び移行作業
-      - CloudWatch・EventBridge・CloudTrail・GuardDuty などの AWS 機能による運用・監視
-      - ALB トラストストア機能によるクライアント証明書と連動したアプリケーションの導入
+      - PostgreSQL のテーブル定義・トリガーの設計
+      - PHP で作成されたバッチ処理のチューニング
+    - 環境構築
+      - VPC・Route53・ALB・ACM・EC2・RDS・S3 を組み合わせたアーキテクチャの構築
+      - ALB トラストストア機能によるクライアント証明書を必須とするセキュリティ要件の実装
       - AWS CloudFormation 導入による案件ごとの環境構築手順の簡略化（2 日→3 時間）
-      - Azure の Virtual Machine でのアプリ動作検証及び Azure における環境構築
+    - 運用保守
+      - Amazon Linux 2 から Amazon Linux 2023 への OS 切り替えに伴う調査及び移行作業
+      - CloudWatch・EventBridge・CloudTrail・GuardDuty 等を利用して AWS 内運用・監視の自動化を導入
+      - Azure の Virtual Machine でのアプリ動作検証
   - **主な取り組み**
 
-    独自フレームワークによるアプリケーションのローコード化が進む中、当該フレームワークを扱える人材が限られていたため、実装業務と並行して技術ドキュメントの整備に注力しました。また、AWS 保守においても貢献の余地を見出し、環境構築手順の簡略化や、クラウドサービスによる実現可能な要件の洗い出しを行い、チーム内へ積極的にナレッジを共有しました。運用性と開発効率の両面から改善を図りました。
+    独自フレームワークによるアプリケーションのローコード開発化が進む中、当該フレームワークを扱える人材が限られていたため、実装業務と並行して技術ドキュメントの整備に注力しました。また、AWS 保守においても貢献の余地を見出し、環境構築手順の簡略化や、クラウドサービスによる実現可能な要件の洗い出しを行い、チーム内へ積極的にナレッジを共有しました。運用性と開発効率の両面から改善を図りました。
 
 ### 【3社目】アイレット株式会社 (2022 年 1 月〜2023 年 6 月）
 
