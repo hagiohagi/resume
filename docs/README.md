@@ -54,7 +54,7 @@ permalink: /
 
 | 種類            | 習熟度 |
 | ------------- | --- |
-| Typescript       | ★   |
+| TypeScript       | ★   |
 | React         | ★   |
 | Vue           | ★★★ |
 | Laravel       | ★★★ |
@@ -286,7 +286,7 @@ permalink: /
   - リポジトリ： [https://github.com/hagiohagi/shokujikanri_app](https://github.com/hagiohagi/shokujikanri_app)
   - ムームードメインによるドメインの発行
   - ロリポップサーバーで Linux・MySQL のセットアップ
-- フロントエンドのモダン web フレームワーク（Next.js・Typescript 等）の自主学習
+- フロントエンドのモダン web フレームワーク（Next.js・TypeScript 等）の自主学習
   - 活動時期：2025 年 4 月~
   - リポジトリ： [https://github.com/hagiohagi/ts-household-app](https://github.com/hagiohagi/ts-household-app)
   - Vercel によるデプロイ
@@ -295,9 +295,9 @@ permalink: /
 
 ## 希望の仕事内容
 
-- 2 つの軸で検討中
-  - これまでに培ったクラウド（AWS）の知見を生かして、よりスケールの大きいクラウドアーキテクチャの設計・運用に携わりたい
-  - バックエンド・クラウドの設計・開発経験を生かしつつ、フロントエンド側のモダンな開発技術を新たに経験を積むことで、フルスタックな技術キャリアを築けるよう成長したい
+  これまでバックエンド開発での API 設計・実装、データベース設計、AWS やを活用したインフラ構築・運用に従事してきましたが、
+  React や TypeScript といったモダンなフロントエンド開発技術に関してはまだ経験が足りないと感じています。
+  将来的にはプロダクトの企画から運用まで全体を見渡せるエンジニアを目指すために、バックエンドからフロントエンドまでを一貫して理解できるフルスタックエンジニアとしての働き方を目指しています。
 
 ## 働き方の希望
 
