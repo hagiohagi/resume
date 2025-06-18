@@ -108,19 +108,7 @@
       "ja-space-after-question": false
     },
     "spellcheck-tech-word": true,
-    "period-in-list-item": {
-      "periodMark": "",
-      "periodMarks": [
-        ".",
-        "。",
-        "．"
-      ],
-      "ignoreLinkEnd": true,
-      "allowPeriodMarks": [],
-      "allowEmoji": false,
-      "forceAppendPeriod": false,
-      "severity": "warning"
-    },
+    "period-in-list-item": false,
     "ja-hiragana-keishikimeishi": true,
     "ja-hiragana-fukushi": true,
     "ja-hiragana-hojodoushi": true,
