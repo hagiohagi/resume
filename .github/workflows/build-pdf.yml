@@ -14,6 +14,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '16'
+      - name: Cache Puppeteer Chromium
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/puppeteer
+          key: puppeteer-${{ runner.os }}
       - run: npm install
       - name: build pdf
         run: npm run build:pdf
